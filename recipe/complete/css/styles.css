@@ -1,0 +1,119 @@
+html{
+    background-color: #fcfce4;
+    color:darkgreen;
+  }
+  
+  .body {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 7rem;
+    font-family: hero-new-hairline,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  header{
+    font-family: hero-new,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+  }
+  
+  h1{
+    font-family: hero-new-hairline,sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    width: 50%;
+    opacity: 0.75;
+    height: 75px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h2{
+    font-family: hero-new,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 26px;
+    text-decoration-line: underline;
+    text-align: center;
+  }
+  
+  .body_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .banner_img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .panes {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .ingredients{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: medium;
+    width: 400px;
+    align-self: flex-start;
+    font-size: 20px;
+  }
+  
+  .instructions{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: medium;
+    width: 600px;
+    align-self: flex-start;
+    font-size: 20px;
+  }
+  
+  .notes{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: medium;
+    width: 400px;
+    align-self: flex-start;
+    font-size: 20px;
+  }
+  
+  .note{
+    padding-bottom: 10px;
+  }
+  
+  ol, ul, .note{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  li {
+    font-size: 100%;
+    padding-bottom: 10px;
+  }
