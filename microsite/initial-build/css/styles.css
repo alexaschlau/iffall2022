@@ -1,0 +1,22 @@
+body {
+    font-family: 'Archivo Narrow',sans-serif;
+  }
+  h1 {
+    margin: 0 0 -4px 0;
+  }
+  .img{
+    width: 100px;
+    height: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .subcontent{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    object-fit: scale-down;
+  }
