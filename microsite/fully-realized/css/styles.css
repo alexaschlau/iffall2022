@@ -1,0 +1,151 @@
+body {
+  font-family: 'Archivo Narrow',sans-serif;
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-repeat: round;
+}
+
+h1 {
+  margin: 0 0 -4px 0;
+  text-align: center;
+  text-shadow: -10px 0px brown;
+  font-size: 100px;
+  color: rgba(250, 250, 250, 0.9);
+  font-family: sans-serif;
+  font-name: helvetica;
+  background-image: url("../images/background_50.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h2 {
+  font-family: Ubuntu;
+  font-size: 40px;
+}
+
+img {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+#img3 {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-style: solid;
+  border-bottom: 20px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#navbar {
+  border-style: solid;
+  border-bottom: 20px;
+  background-image: url("../images/background_50.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#content {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url("../images/background.jpg");
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #222;
+  margin: 0 10px 10px 0;
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+  background-color: #ddd;
+}
+
+#btn:hover {
+  color: #ddd;
+  background-color: #222;
+}
+
+.subcontent {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+p {
+  font-family: serif;
+  font-name: times;
+  text-align: left;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#btn_link {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+#btn_link:hover {
+  color: #fafafa;
+}
+
+.text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.footerItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#footer {
+  margin-bottom: 20px;
+}
+
+#source {
+  text-decoration: none;
+  color: black;
+}
